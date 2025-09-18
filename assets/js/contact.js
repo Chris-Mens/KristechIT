@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (btnLoading) btnLoading.style.display = 'inline-flex';
 
             try {
-                // Collect form data
+                // Collect form data - declared outside try/catch to be accessible in catch block
                 const formData = {
                     firstName: document.getElementById('firstName').value.trim(),
                     lastName: document.getElementById('lastName').value.trim(),
