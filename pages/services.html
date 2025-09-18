@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Kristech IT Solutions</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/kritech-logo copy.ico">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/advanced-features.css">
+    <link rel="stylesheet" href="../assets/css/services.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+        <p>Loading Services...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="../assets/images/kritech-logo.png" alt="Kristech IT Logo" class="logo-image">
+                <h2>Kristech IT</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link active">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content" data-aos="fade-up">
+                <h1>Professional IT Services</h1>
+                <p>Comprehensive technology solutions tailored to your business needs</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Services</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview">
+        <div class="container">
+            <div class="overview-grid" data-aos="fade-up">
+                <div class="overview-content">
+                    <h2>What We Offer</h2>
+                    <p>At Kristech IT Solutions, we provide end-to-end technology services that bridge the gap between complex technical requirements and creative design solutions. Our expertise spans multiple domains to deliver comprehensive digital transformation.</p>
+                    <div class="overview-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="50">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="25">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="15">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="99">0</div>
+                            <div class="stat-label">Success Rate %</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-visual">
+                    <div class="service-icons">
+                        <div class="floating-service-icon" data-service="web-development">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="floating-service-icon" data-service="graphic-design">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="floating-service-icon" data-service="database-solutions">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="floating-service-icon" data-service="it-consulting">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Services -->
+    <section class="main-services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Core Services</h2>
+                <p>Comprehensive solutions designed to accelerate your digital transformation</p>
+            </div>
+
+            <!-- Web Development Service -->
+            <div class="service-section" id="web-development" data-aos="fade-up">
+                <div class="service-header">
+                    <div class="service-icon web-dev">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="service-title">
+                        <h3>Web Development</h3>
+                        <p>Custom websites and web applications built with cutting-edge technologies</p>
+                    </div>
+                    <div class="service-toggle">
+                        <button class="toggle-btn" data-target="web-development-details">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-details" id="web-development-details">
+                    <div class="details-grid">
+                        <div class="details-content">
+                            <h4>What We Deliver</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Responsive Web Design</li>
+                                <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                                <li><i class="fas fa-check"></i> Content Management Systems</li>
+                                <li><i class="fas fa-check"></i> Progressive Web Apps (PWAs)</li>
+                                <li><i class="fas fa-check"></i> API Development & Integration</li>
+                                <li><i class="fas fa-check"></i> Performance Optimization</li>
+                            </ul>
+                            
+                            <h4>Technologies We Use</h4>
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card">
+                            <h4>Starting From</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">2,500</span>
+                            </div>
+                            <p class="price-note">Basic website package</p>
+                            <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                            <div class="package-includes">
+                                <h5>Package Includes:</h5>
+                                <ul>
+                                    <li>Responsive Design</li>
+                                    <li>5 Pages</li>
+                                    <li>Contact Form</li>
+                                    <li>SEO Optimization</li>
+                                    <li>3 Months Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Graphic Design Service -->
+            <div class="service-section" id="graphic-design" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-header">
+                    <div class="service-icon design">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="service-title">
+                        <h3>Graphic Design</h3>
+                        <p>Creative visual solutions that communicate your brand message effectively</p>
+                    </div>
+                    <div class="service-toggle">
+                        <button class="toggle-btn" data-target="graphic-design-details">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-details" id="graphic-design-details">
+                    <div class="details-grid">
+                        <div class="details-content">
+                            <h4>Design Services</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Logo & Brand Identity</li>
+                                <li><i class="fas fa-check"></i> Marketing Materials</li>
+                                <li><i class="fas fa-check"></i> UI/UX Design</li>
+                                <li><i class="fas fa-check"></i> Print Design</li>
+                                <li><i class="fas fa-check"></i> Social Media Graphics</li>
+                                <li><i class="fas fa-check"></i> Packaging Design</li>
+                            </ul>
+                            
+                            <h4>Design Tools</h4>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Adobe Photoshop</span>
+                                <span class="tech-tag">Adobe Illustrator</span>
+                                <span class="tech-tag">Adobe InDesign</span>
+                                <span class="tech-tag">Figma</span>
+                                <span class="tech-tag">Sketch</span>
+                                <span class="tech-tag">Adobe XD</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card">
+                            <h4>Starting From</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">500</span>
+                            </div>
+                            <p class="price-note">Logo design package</p>
+                            <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                            <div class="package-includes">
+                                <h5>Package Includes:</h5>
+                                <ul>
+                                    <li>3 Logo Concepts</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>Vector Files</li>
+                                    <li>Brand Guidelines</li>
+                                    <li>Social Media Kit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IT Consulting Service -->
+            <div class="service-section" id="it-consulting" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-header">
+                    <div class="service-icon consulting">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="service-title">
+                        <h3>IT Consulting</h3>
+                        <p>Strategic technology guidance to optimize your business operations</p>
+                    </div>
+                    <div class="service-toggle">
+                        <button class="toggle-btn" data-target="it-consulting-details">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-details" id="it-consulting-details">
+                    <div class="details-grid">
+                        <div class="details-content">
+                            <h4>Consulting Services</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> System Analysis & Design</li>
+                                <li><i class="fas fa-check"></i> Technology Planning</li>
+                                <li><i class="fas fa-check"></i> Process Optimization</li>
+                                <li><i class="fas fa-check"></i> Digital Transformation</li>
+                                <li><i class="fas fa-check"></i> Security Assessment</li>
+                                <li><i class="fas fa-check"></i> Cloud Migration</li>
+                            </ul>
+                            
+                            <h4>Expertise Areas</h4>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Cloud Computing</span>
+                                <span class="tech-tag">Cybersecurity</span>
+                                <span class="tech-tag">Data Analytics</span>
+                                <span class="tech-tag">DevOps</span>
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">IoT</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card">
+                            <h4>Starting From</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">150</span>
+                                <span class="period">/hour</span>
+                            </div>
+                            <p class="price-note">Consultation rate</p>
+                            <a href="contact.html" class="btn btn-primary">Schedule Call</a>
+                            <div class="package-includes">
+                                <h5>What You Get:</h5>
+                                <ul>
+                                    <li>Initial Assessment</li>
+                                    <li>Strategic Roadmap</li>
+                                    <li>Implementation Plan</li>
+                                    <li>Risk Analysis</li>
+                                    <li>Follow-up Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Database Solutions Service -->
+            <div class="service-section" id="database-solutions" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-header">
+                    <div class="service-icon database">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="service-title">
+                        <h3>Database Solutions</h3>
+                        <p>Efficient data management systems for optimal business intelligence</p>
+                    </div>
+                    <div class="service-toggle">
+                        <button class="toggle-btn" data-target="database-solutions-details">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-details" id="database-solutions-details">
+                    <div class="details-grid">
+                        <div class="details-content">
+                            <h4>Database Services</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Database Design & Architecture</li>
+                                <li><i class="fas fa-check"></i> Data Migration & Integration</li>
+                                <li><i class="fas fa-check"></i> Performance Optimization</li>
+                                <li><i class="fas fa-check"></i> Backup & Recovery Solutions</li>
+                                <li><i class="fas fa-check"></i> Reporting Systems</li>
+                                <li><i class="fas fa-check"></i> Data Analytics & BI</li>
+                            </ul>
+                            
+                            <h4>Database Technologies</h4>
+                            <div class="tech-stack">
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Oracle</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">Redis</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card">
+                            <h4>Starting From</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">1,200</span>
+                            </div>
+                            <p class="price-note">Basic database setup</p>
+                            <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                            <div class="package-includes">
+                                <h5>Package Includes:</h5>
+                                <ul>
+                                    <li>Database Design</li>
+                                    <li>Initial Setup</li>
+                                    <li>Basic Optimization</li>
+                                    <li>Documentation</li>
+                                    <li>Training Session</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Process</h2>
+                <p>A structured approach to deliver exceptional results</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-right">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Discovery & Analysis</h3>
+                        <p>We start by understanding your business needs, goals, and challenges through comprehensive analysis and stakeholder interviews.</p>
+                        <ul>
+                            <li>Requirements gathering</li>
+                            <li>Stakeholder interviews</li>
+                            <li>Market research</li>
+                            <li>Technical assessment</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-aos="fade-left">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Strategy & Planning</h3>
+                        <p>Based on our analysis, we develop a comprehensive strategy and detailed project plan with clear milestones and deliverables.</p>
+                        <ul>
+                            <li>Solution architecture</li>
+                            <li>Project roadmap</li>
+                            <li>Resource allocation</li>
+                            <li>Risk assessment</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-aos="fade-right">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Design & Development</h3>
+                        <p>Our team brings your vision to life through iterative design and development, ensuring quality at every stage.</p>
+                        <ul>
+                            <li>Prototype development</li>
+                            <li>User interface design</li>
+                            <li>Core development</li>
+                            <li>Quality assurance</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-aos="fade-left">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Testing & Deployment</h3>
+                        <p>Rigorous testing ensures your solution works flawlessly before deployment, followed by smooth launch and monitoring.</p>
+                        <ul>
+                            <li>Comprehensive testing</li>
+                            <li>Performance optimization</li>
+                            <li>Deployment planning</li>
+                            <li>Go-live support</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-aos="fade-right">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>Support & Maintenance</h3>
+                        <p>We provide ongoing support and maintenance to ensure your solution continues to perform optimally and evolve with your needs.</p>
+                        <ul>
+                            <li>24/7 monitoring</li>
+                            <li>Regular updates</li>
+                            <li>Performance optimization</li>
+                            <li>Feature enhancements</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers to common questions about our services</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h3>How long does a typical web development project take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on complexity and requirements. A basic website typically takes 4-6 weeks, while complex web applications can take 3-6 months. We provide detailed timelines during the planning phase.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>Do you provide ongoing support after project completion?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer comprehensive support and maintenance packages. This includes regular updates, security patches, performance monitoring, and technical support to ensure your solution continues to perform optimally.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Can you work with our existing systems and databases?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We specialize in system integration and can work with your existing infrastructure. We'll assess your current systems and develop solutions that integrate seamlessly with your existing technology stack.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>What is your pricing structure?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer flexible pricing models including fixed-price projects, hourly rates, and retainer agreements. Pricing depends on project scope, complexity, and timeline. We provide detailed quotes after understanding your requirements.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>Do you work with businesses of all sizes?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we work with startups, small businesses, and large enterprises. Our solutions are scalable and can be tailored to meet the specific needs and budget constraints of businesses of any size.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Let's discuss how our services can help you achieve your technology goals</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                    <a href="portfolio.html" class="btn btn-secondary">View Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kristech IT Solutions</h3>
+                    <p>Bridging technology and creativity to deliver innovative digital solutions.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#web-development">Web Development</a></li>
+                        <li><a href="#graphic-design">Graphic Design</a></li>
+                        <li><a href="#it-consulting">IT Consulting</a></li>
+                        <li><a href="#database-solutions">Database Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@kristechit.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Available Worldwide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kristech IT Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/services.js"></script>
+</body>
+</html>

@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristech IT Solutions - Professional Technology Services</title>
+    <meta name="description" content="Professional IT solutions bridging technology and creativity. Web development, graphic design, IT consulting, and database solutions.">
+    <link rel="icon" type="image/x-icon" href="assets/images/kritech-logo copy.ico">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/advanced-features.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+        <p>Loading Kristech IT...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/kritech-logo.png" alt="Kristech IT Logo" class="logo-image">
+                <h2>Kristech IT</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="floating-elements">
+                <div class="floating-element" data-speed="2"></div>
+                <div class="floating-element" data-speed="3"></div>
+                <div class="floating-element" data-speed="1.5"></div>
+                <div class="floating-element" data-speed="2.5"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">
+                    <span class="typing-text">Bridging Technology</span>
+                    <span class="highlight">& Creativity</span>
+                </h1>
+                <p class="hero-subtitle">Professional IT solutions that transform your digital presence with innovative web development, stunning design, and strategic consulting.</p>
+                <div class="hero-stats">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-number" data-count="25">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="stat-number" data-count="99">0</div>
+                        <div class="stat-label">Success Rate %</div>
+                    </div>
+                </div>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="500">
+                    <a href="pages/services.html" class="btn btn-primary">
+                        <span>Explore Services</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="pages/contact.html" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-comments"></i>
+                    </a>
+                </div>
+                <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="600">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>What We Do</h2>
+                <p>Comprehensive technology solutions tailored to your business needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with cutting-edge technologies for optimal performance.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">React</span>
+                        <span class="feature-tag">Node.js</span>
+                        <span class="feature-tag">Python</span>
+                    </div>
+                    <a href="services.html#web-development" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Creative visual solutions that communicate your brand message effectively and beautifully.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Logo Design</span>
+                        <span class="feature-tag">UI/UX</span>
+                        <span class="feature-tag">Branding</span>
+                    </div>
+                    <a href="services.html#graphic-design" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>IT Consulting</h3>
+                    <p>Strategic technology guidance to optimize your business operations and digital transformation.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Strategy</span>
+                        <span class="feature-tag">Cloud</span>
+                        <span class="feature-tag">Security</span>
+                    </div>
+                    <a href="services.html#it-consulting" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Solutions</h3>
+                    <p>Efficient data management systems for optimal business intelligence and performance.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">MySQL</span>
+                        <span class="feature-tag">MongoDB</span>
+                        <span class="feature-tag">Analytics</span>
+                    </div>
+                    <a href="services.html#database-solutions" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content" data-aos="fade-right">
+                    <h2>About Kristech IT</h2>
+                    <p class="about-intro">With a strong foundation in Information Systems & Technology and a passion for creative design, I bridge the gap between complex technical requirements and innovative solutions.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Education</h4>
+                                <p>Information Systems & Technology</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Expertise</h4>
+                                <p>Full-Stack Development & Design</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Experience</h4>
+                                <p>5+ Years in Tech Industry</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-preview">
+                        <h4>Core Skills</h4>
+                        <div class="skill-bars">
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Web Development</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="95"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Graphic Design</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="90"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Database Management</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="about.html" class="btn btn-primary">
+                        Learn More About Me <i class="fas fa-user"></i>
+                    </a>
+                </div>
+                
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="visual-container">
+                        <div class="tech-icons">
+                            <div class="tech-icon" data-tech="html">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="tech-icon" data-tech="css">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="tech-icon" data-tech="js">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="tech-icon" data-tech="react">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="tech-icon" data-tech="node">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="tech-icon" data-tech="python">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="tech-icon" data-tech="design">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="tech-icon" data-tech="database">
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview -->
+    <section class="portfolio-preview">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Featured Work</h2>
+                <p>Showcasing recent projects that demonstrate our expertise and creativity</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder web-dev">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>E-Commerce Platform</h3>
+                            <p>Full-stack web application</p>
+                            <div class="portfolio-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a href="portfolio.html" class="portfolio-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info-mobile">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack web application</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="portfolio.html" class="portfolio-link-mobile">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder design">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Brand Identity Design</h3>
+                            <p>Complete branding package</p>
+                            <div class="portfolio-tags">
+                                <span>Logo</span>
+                                <span>Branding</span>
+                                <span>Print</span>
+                            </div>
+                            <a href="portfolio.html" class="portfolio-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info-mobile">
+                        <h3>Brand Identity Design</h3>
+                        <p>Complete branding package</p>
+                        <div class="portfolio-tags">
+                            <span>Logo</span>
+                            <span>Branding</span>
+                            <span>Print</span>
+                        </div>
+                        <a href="portfolio.html" class="portfolio-link-mobile">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder mobile">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Mobile App UI/UX</h3>
+                            <p>User interface design</p>
+                            <div class="portfolio-tags">
+                                <span>UI/UX</span>
+                                <span>Mobile</span>
+                                <span>Figma</span>
+                            </div>
+                            <a href="portfolio.html" class="portfolio-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info-mobile">
+                        <h3>Mobile App UI/UX</h3>
+                        <p>User interface design</p>
+                        <div class="portfolio-tags">
+                            <span>UI/UX</span>
+                            <span>Mobile</span>
+                            <span>Figma</span>
+                        </div>
+                        <a href="portfolio.html" class="portfolio-link-mobile">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder database">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Analytics Dashboard</h3>
+                            <p>Data visualization system</p>
+                            <div class="portfolio-tags">
+                                <span>Analytics</span>
+                                <span>Dashboard</span>
+                                <span>Python</span>
+                            </div>
+                            <a href="portfolio.html" class="portfolio-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info-mobile">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Data visualization system</p>
+                        <div class="portfolio-tags">
+                            <span>Analytics</span>
+                            <span>Dashboard</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="portfolio.html" class="portfolio-link-mobile">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta" data-aos="fade-up" data-aos-delay="500">
+                <a href="portfolio.html" class="btn btn-primary">
+                    View All Projects <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>What Clients Say</h2>
+                <p>Trusted by businesses worldwide for exceptional results</p>
+            </div>
+            
+            <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-track">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"Kristech IT delivered an exceptional website that perfectly captured our brand vision. The attention to detail and technical expertise was outstanding."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <span>CEO, TechStart Inc.</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"The database solution provided by Kristech IT transformed our operations. We now have real-time insights that drive better business decisions."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Michael Chen</h4>
+                                    <span>Operations Manager, DataFlow Corp</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"Professional, creative, and reliable. Kristech IT helped us rebrand our entire digital presence with stunning design and seamless functionality."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Emily Rodriguez</h4>
+                                    <span>Marketing Director, Creative Solutions</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="testimonial-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section class="blog-preview">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Latest Insights</h2>
+                <p>Stay updated with the latest trends in technology and design</p>
+            </div>
+            
+            <div class="blog-grid">
+                <div class="blog-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="blog-category">Featured</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 15, 2024</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3>The Future of Web Development: Trends to Watch in 2025</h3>
+                        <p>Exploring emerging technologies and methodologies that will shape the web development landscape in the coming year.</p>
+                        <a href="blog.html" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="blog-category">Design</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 10, 2024</span>
+                            <span class="blog-read-time">3 min read</span>
+                        </div>
+                        <h3>Design Systems: Building Consistency at Scale</h3>
+                        <p>How to create and maintain design systems that ensure consistency across large projects and teams.</p>
+                        <a href="blog.html" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="blog-category">Security</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 5, 2024</span>
+                            <span class="blog-read-time">4 min read</span>
+                        </div>
+                        <h3>Cybersecurity Best Practices for Small Businesses</h3>
+                        <p>Essential security measures every small business should implement to protect their digital assets.</p>
+                        <a href="blog.html" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-cta" data-aos="fade-up" data-aos-delay="400">
+                <a href="blog.html" class="btn btn-secondary">
+                    View All Articles <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Transform Your Digital Presence?</h2>
+                <p>Let's collaborate to bring your vision to life with innovative technology solutions</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        Start Your Project <i class="fas fa-rocket"></i>
+                    </a>
+                    <a href="portfolio.html" class="btn btn-secondary">
+                        View Our Work <i class="fas fa-eye"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kristech IT Solutions</h3>
+                    <p>Bridging technology and creativity to deliver innovative digital solutions that drive business success.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Behance">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#web-development">Web Development</a></li>
+                        <li><a href="services.html#graphic-design">Graphic Design</a></li>
+                        <li><a href="services.html#it-consulting">IT Consulting</a></li>
+                        <li><a href="services.html#database-solutions">Database Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@kristechit.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Available Worldwide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kristech IT Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/home.js"></script>
+</body>
+</html>
