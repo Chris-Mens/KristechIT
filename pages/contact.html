@@ -570,7 +570,7 @@
         // Initialize EmailJS with your public key
         (function() {
             emailjs.init({
-                publicKey: "YOUR_PUBLIC_KEY_HERE", // Replace with your EmailJS public key
+                publicKey: "bPMHhhqpfP_0ounlJ", // Your EmailJS public key
                 blockHeadless: true,
                 limitRate: {
                     throttle: 10000, // 10 seconds
@@ -579,6 +579,7 @@
             
             // Make emailjs available globally for contact.js
             window.emailjs = emailjs;
+            console.log('EmailJS initialized with public key');
         })();
         
         // Initialize AOS
