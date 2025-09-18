@@ -511,9 +511,9 @@ window.addEventListener('beforeunload', function() {
     document.body.style.opacity = '0';
 });
 
-// Add CSS for comparison modal
-const style = document.createElement('style');
-style.textContent = `
+// Add CSS for modals and additional features
+const servicesStyles = document.createElement('style');
+servicesStyles.textContent = `
     .service-compare-section {
         padding: 4rem 0;
         background: white;
@@ -587,4 +587,4 @@ style.textContent = `
         font-weight: 600;
     }
 `;
-document.head.appendChild(style);
+document.head.appendChild(servicesStyles);

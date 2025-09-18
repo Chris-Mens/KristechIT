@@ -317,12 +317,49 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
+// Add CSS for notification system
+const mainStyles = document.createElement('style');
+mainStyles.textContent = `
+    .notification {
+        position: fixed;
+        top: 100px;
+        right: 20px;
+        background: #3b82f6;
+        color: white;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        z-index: 10000;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        max-width: 400px;
+    }
+    
+    .notification-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    
+    .notification-close {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 0;
+        line-height: 1;
+    }
+`;
+document.head.appendChild(mainStyles);
+
 // Add rainbow animation for easter egg
-const style = document.createElement('style');
-style.textContent = `
+const rainbowStyles = document.createElement('style');
+rainbowStyles.textContent = `
     @keyframes rainbow {
         0% { filter: hue-rotate(0deg); }
         100% { filter: hue-rotate(360deg); }
     }
 `;
-document.head.appendChild(style);
+document.head.appendChild(rainbowStyles);

@@ -342,15 +342,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 5000);
     }
 
-    // Add rainbow animation for easter egg
-    const style = document.createElement('style');
-    style.textContent = `
+    // Add CSS for additional animations
+    const aboutStyles = document.createElement('style');
+    aboutStyles.textContent = `
         @keyframes rainbow {
             0% { filter: hue-rotate(0deg); }
             100% { filter: hue-rotate(360deg); }
         }
     `;
-    document.head.appendChild(style);
+    document.head.appendChild(aboutStyles);
 
     // Initialize all features
     animateCounters();
