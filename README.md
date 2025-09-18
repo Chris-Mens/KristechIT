@@ -361,8 +361,8 @@ php -S localhost:8000
 
 ### **Support Channels**
 - Contact form on website
-- Email: info@kristechit.com
-- Phone: +1 (555) 123-4567
+- Email: christophermen60@gmail.com
+- Phone: +233 509 146 971
 
 ## 📄 License & Usage
 
@@ -389,7 +389,7 @@ This project is created for **Kristech IT Solutions** business use. The code str
 ## 🌟 **Kristech IT Solutions**
 *Bridging technology and creativity to deliver innovative digital solutions.*
 
-**Website**: [kristechit.com](https://kristechit.com) | **Email**: info@kristechit.com | **Phone**: +1 (555) 123-4567
+**Website**: [kristechit.com](https://kristechit.com) | **Email**: christophermen60@gmail.com | **Phone**: +233 509 146 971
 
 ---
 
